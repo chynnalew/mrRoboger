@@ -72,4 +72,8 @@ const input = "25";
 mrRobo(input);
 Expected result: ["Boop! "]
 
-
+Test: "It should convert a number array into a string array."
+Code:
+const input = 5;
+inputArray(input);
+Expected Result: ["0","1","2","3","4","5"];
