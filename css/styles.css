@@ -1,9 +1,19 @@
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 22px;
+}
 #refresh {
   display: none;
 }
-#robot{
-  display: none;
+.hidden {
+  visibility: hidden;
 }
-#user {
-  display: none;
+.img {
+  width: 200px;
+  height: auto;
+  margin: 5px
 }
+#submit {
+  text-align: center;
+}
+

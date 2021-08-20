@@ -9,23 +9,32 @@
 </head>
 <body>
   <div class = "container">
-    <h1>Welcome to Mr. Roboger's Neighborhood!</h1>
-    <p>Input a number below and Mr. Roboger will count from zero to your number in robo-neighbor-speak!</p>
+    <div class="jumbotron">
+      <h1>Welcome to Mr. Roboger's Neighborhood!</h1>
+    </div>
+    
     <form id="submit">
-      <input id="input" type="number" minlength="0" required>
+      <p>Input a number below and Mr. Roboger will count from zero to your number in robo-neighbor-speak!</p>
+      <input id="input" type="number" min="0" required>
       <button type="submit" class="btn-outline-secondary">Submit!</button>
     </form>
     <button id="refresh" onClick="window.location.reload();" class="btn-block">Try again!</button> 
     <div class="row">
-      <div id="user" class="col-6">
+      <div class="hidden" class="col-3">
         <h1>You said:</h1>
         <p><span id=userInput></span></p>
       </div>
-      <div id="robot"  class="col-6">
+      <div class=img class="col-3">
+        <img  src="img/person.png" alt="the outline of a person">
+      </div>
+      <div class="hidden" class="col-3">
         <h1>Mr. Roboger says:</h1>
         <ul>
           <span id="output"></span>
         </ul>
+      </div>
+      <div class=img class="col-3">
+        <img class="img" src="img/robot.jpg" alt="a cartoon robot">
       </div>
     </div>
    </div>
