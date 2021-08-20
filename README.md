@@ -1,3 +1,46 @@
+# Mr. Roboger's Neighborhood
+
+#### An Epicodus independent project that converts a user input number into an array of numbers with strings substituted for numbers that fullfil certain requirements. 
+
+#### By: Chynna Lew
+
+## Technologies Used
+
+* HTML
+* CSS / Bootstrap
+* JavaScript / JQuery
+
+## Description
+
+This project was created using Test Driven Development. The plain text tests can be found in the test section of this document and the test functions are commented out at the end of the scripts.js in the js directory.
+This application will output a list of whole numbers from 0 to the user input number. It replaces some numbers in the list with strings, following these rules, in order of importance:
+Rule 1: For numbers that contain a 3, the entire number is replaced with "Won't you be my neighbor?"
+Rule 2: For numbers that contain a 2, the entire number is replaced with "Boop!"
+Rule 3: For numbers that contain a 3, the entire number is replaced with "Won't you be my neighbor?"
+
+## Setup/Installation Requirements
+
+* Go to [project repository](https://github.com/chynnalew/mrRoboger)
+* Download the files or Clone the repository to your local machine.
+* Open the mrRoboger folder on your local machine.
+* Open index.html in your local browser.
+* Enter a number into the form and click the submit button!
+* Note: You can either refresh your browser or hit the "Try again!" button to enter a new submission.
+
+## Known Bugs
+
+*  No bugs known at this time
+
+ ## License
+
+ [MIT](https://opensource.org/licenses/MIT) 2021
+
+ ## Contact Information
+
+ chynnalew@yahoo.com
+
+
+## Tests
 Digits Function (helper function) - produce the correct output with single digits:
 
 Test: "It should recognize when the number is 1 and return 'Beep'."

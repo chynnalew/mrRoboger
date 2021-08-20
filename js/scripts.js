@@ -38,7 +38,10 @@ $(document).ready(function(){
       $("#output").append("<li>" + output.toString().split(",").pop() + "</li>");
     })
     $("#submit").hide();
+    $("#user").show();
+    $("#robot").show();
     $("#refresh").show();
+    $("#userInput").append(input);
   })
 })
 

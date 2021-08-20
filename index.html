@@ -12,15 +12,23 @@
     <h1>Welcome to Mr. Roboger's Neighborhood!</h1>
     <p>Input a number below and Mr. Roboger will count from zero to your number in robo-neighbor-speak!</p>
     <form id="submit">
-      <input id="input" type="number" minlength="0">
-      <button type="submit" class="btn">Submit!</button>
+      <input id="input" type="number" minlength="0" required>
+      <button type="submit" class="btn-outline-secondary">Submit!</button>
     </form>
-    <button id="refresh" onClick="window.location.reload();" class="btn">Try again!</button> 
-    <div>
-      <ul>
-        <span id="output"></span>
-      </ul>
+    <button id="refresh" onClick="window.location.reload();" class="btn-block">Try again!</button> 
+    <div class="row">
+      <div id="user" class="col-6">
+        <h1>You said:</h1>
+        <p><span id=userInput></span></p>
+      </div>
+      <div id="robot"  class="col-6">
+        <h1>Mr. Roboger says:</h1>
+        <ul>
+          <span id="output"></span>
+        </ul>
+      </div>
     </div>
+   </div>
   </div>
 
 </body>
