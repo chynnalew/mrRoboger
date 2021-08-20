@@ -37,6 +37,8 @@ $(document).ready(function(){
       output.push(number + " ");
       $("#output").append("<li>" + output.toString().split(",").pop() + "</li>");
     })
+    $("#submit").hide();
+    $("#refresh").show();
   })
 })
 
