@@ -28,6 +28,12 @@ const input = 5;
 inputArray(input);
 Expected output: [0, 1, 2, 3, 4, 5]
 
+Test: "It should convert a number array into a string array."
+Code:
+const input = 5;
+inputArray(input);
+Expected Result: ["0","1","2","3","4","5"];
+
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 Num Function (helper function) - recognizing single digits in an input number
@@ -58,13 +64,9 @@ expected output: false
 
 //refactor digit function into num function to recognize 1, 2, and 3 in muliti digit numbers, change the returns to required strings//
 
-mrRobo Function (main function)
+////////////////////////////////
 
-Test: "It should take an input string and turn it into an integer"
-Code:
-const input = "45";
-inputInt(input);
-Expected outcome: 45
+mrRobo (main function)
 
 Test: "It should take a value, run it through numbers and push the value into the final array"
 code: 
@@ -72,8 +74,8 @@ const input = "25";
 mrRobo(input);
 Expected result: ["Boop! "]
 
-Test: "It should convert a number array into a string array."
+Test: "It should take each element of an array and push the return values for each index into the final array"
 Code:
-const input = 5;
-inputArray(input);
-Expected Result: ["0","1","2","3","4","5"];
+const input = "5";
+mrRobo(input);
+Expected Result: [ "0", "Beep!", "Boop!","Won't you be my neighbor?", "4", "5 "]
