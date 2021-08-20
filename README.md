@@ -32,27 +32,27 @@ Expected output: [0, 1, 2, 3, 4, 5]
 
 Num Function (helper function) - recognizing single digits in an input number
 
-Test: "It should recognize is the digit 3 is in a number"
+Test: "It should recognize is the digit 3 is in a number and output "Won't you be my neighbor? "."
 Code:
 const input = "35"
 numbers(input);
-Expected output: true
+Expected output: "Won't you be my neighbor? "
 
-Test: "It should recognize the digit 2 is in a number"
+Test: "It should recognize the digit 2 is in a number and return "Boop! " ."
 Code:
-const input: "25"
+const input = "25";
 numbers(input);
-expected output: true
+expected output: "Boop! "
 
-Test: "It should recognize the digit 1 is in a number"
+Test: "It should recognize the digit 1 is in a number and return "Beep! " ."
 Code:
-const input: "15"
+const input = "15";
 numbers(input);
-expected output: true
+expected output: "Beep! "
 
 Test: It should recognize when a number doesn't include 1, 2, or 3."
 code:
-const input: "45"
+const input = "45";
 numbers(input);
 expected output: false
 
@@ -63,11 +63,13 @@ mrRobo Function (main function)
 Test: "It should take an input string and turn it into an integer"
 Code:
 const input = "45";
-inputInt(input)
+inputInt(input);
 Expected outcome: 45
 
-Test: "It should take the array variable and loop each element through the numbers function"
-Code:
-
+Test: "It should take a value, run it through numbers and push the value into the final array"
+code: 
+const input = "25";
+mrRobo(input);
+Expected result: ["Boop! "]
 
 

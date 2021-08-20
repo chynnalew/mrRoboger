@@ -1,25 +1,26 @@
-function inputInt(input) {
-  const inputInt = parseInt(input);
-  return inputInt;
-}
+const input = parseInt(userInput);
 
 function inputArray(input) {
   const array = []
-  for (var i = 0; i <= input; i++) {
+  for (i = 0; i <= input; i++) {
     array.push(i);
   }
   return array;
 }
 
+function mrRobo(array) {
+  for (i=0; i<array.length; i++) {
+
+  }
+}
 function numbers(input) {
   if (input.includes("3")) {
     return "Won't you be my neighbor?";
   } else if (input.includes("2")) {
-    return "Boop";
+    return "Boop!";
   } else if (input.includes("1")) {
-    return "Beep";
+    return "Beep!";
   }
   return input;
 }
-
 
